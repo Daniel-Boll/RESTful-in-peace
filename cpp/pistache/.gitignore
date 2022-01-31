@@ -1,0 +1,4 @@
+build/
+debug/
+.cache/
+compile_commands.js

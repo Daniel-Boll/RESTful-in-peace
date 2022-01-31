@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/include",
+      "-c",
+      "-o",
+      "CMakeFiles/UserController.dir/source/user/controller.cpp.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/user/controller.cpp"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/user/controller.cpp",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/CMakeFiles/UserController.dir/source/user/controller.cpp.o"
+  }
+]
