@@ -2,7 +2,48 @@
   {
     "arguments": [
       "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/fmt.dir/src/os.cc.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/src/os.cc"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/_deps/fmt-build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/src/os.cc",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/fmt.dir/src/format.cc.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/src/format.cc"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/_deps/fmt-build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/src/format.cc",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-DJSON_DIAGNOSTICS=0",
+      "-DJSON_USE_IMPLICIT_CONVERSIONS=1",
       "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/nlohmann_json/b0624674a8aca048bfc219c71db772031ea0fc97/single_include",
+      "-isystem",
+      "/usr/local/include/pistache",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
       "-c",
       "-o",
       "CMakeFiles/UserController.dir/source/user/controller.cpp.o",
@@ -11,5 +52,65 @@
     "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build",
     "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/user/controller.cpp",
     "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/CMakeFiles/UserController.dir/source/user/controller.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-DJSON_DIAGNOSTICS=0",
+      "-DJSON_USE_IMPLICIT_CONVERSIONS=1",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/nlohmann_json/b0624674a8aca048bfc219c71db772031ea0fc97/single_include",
+      "-isystem",
+      "/usr/local/include/pistache",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/UserService.dir/source/user/service.cpp.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/user/service.cpp"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/user/service.cpp",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/CMakeFiles/UserService.dir/source/user/service.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-isystem",
+      "/usr/local/include/pistache",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/Router.dir/source/router.cpp.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/router.cpp"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/router.cpp",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/CMakeFiles/Router.dir/source/router.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DFMT_LOCALE",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/.cache/CPM/fmt/1f38e34a5b1de9f9f27d7218639560f5dcab6711/include",
+      "-I/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/include",
+      "-isystem",
+      "/usr/local/include/pistache",
+      "-DELPP_THREAD_SAFE",
+      "-std=gnu++17",
+      "-c",
+      "-o",
+      "CMakeFiles/PISTACHERestAPI.dir/source/main.cpp.o",
+      "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/main.cpp"
+    ],
+    "directory": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build",
+    "file": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/source/main.cpp",
+    "output": "/home/danielboll/dev/personal/RESTful-in-peace/cpp/pistache/build/CMakeFiles/PISTACHERestAPI.dir/source/main.cpp.o"
   }
 ]

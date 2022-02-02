@@ -12,7 +12,7 @@ read -r mode
 
 if [ "$mode" == "build" ]; then
   echo -e "${GREEN}Building...${NC}"
-  cmake -Bbuild -DCPM_SOURCE_CACHE=.cache/CPM
+  cmake -Bbuild -DCPM_SOURCE_CACHE=.cache/CPM -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 elif [ "$mode" == "debug" ]; then
   echo -e "${GREEN}Building in debug mode...${NC}"
   cmake -DCMAKE_BUILD_TYPE=Debug -Bdebug -DCPM_SOURCE_CACHE=.cache/CPM
@@ -22,7 +22,7 @@ fi
 
 if [ $? -eq 0 ]; then # Check to see if it succeeded
   echo -e "${GREEN}Building with cmake${NC}"
-  bear -- make -sj4 -C "$mode" # Generate the compile_commands.json
+  make -sj4 -C "$mode" # Generate the compile_commands.json
 else
   echo -e "${RED}Error building!${NC}"
 fi

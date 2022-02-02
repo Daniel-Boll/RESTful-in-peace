@@ -11,7 +11,7 @@ rm -rf build
 echo -e "${GREEN}Creating${NC} new build folder"
 mkdir -p build
 echo -e "${GREEN}Building with cmake${NC}"
-cmake --build build -DUSE_CCACHE=ON -DCPM_SOURCE_CACHE=.cache/CPM
+cmake -Bbuild -DCPM_SOURCE_CACHE=.cache/CPM -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 if [ $? -eq 0 ]; then
   echo -e "${GREEN}Building with cmake${NC}"
   cd .. && bear -- make -sj4 -C build
